@@ -26,6 +26,7 @@ ssriCheckFile('.editorconfig', 'sha512-3Araasa9Jnn6DwVZpe7nvi3IgopUNXzy5OyL3D2Dt
       console.error('Integrity not verified')
     }
   })
+  .catch(err => console.error(err))
 ```
 <!--/@-->
 
