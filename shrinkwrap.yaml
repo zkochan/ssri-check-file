@@ -567,7 +567,7 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
-  /codemo/0.2.1:
+  /codemo/0.2.2:
     dependencies:
       acorn: 3.0.4
       babel-runtime: 6.26.0
@@ -586,7 +586,7 @@ packages:
     engines:
       node: '>=0.10'
     resolution:
-      integrity: sha1-HsA5xPlRrpcOCuK2ZGFl1tSNz4Q=
+      integrity: sha1-GCe0ZB87z4vXG9SbLU6ZtFuLX9c=
   /collapse-white-space/1.0.3:
     dev: false
     resolution:
@@ -2030,7 +2030,7 @@ packages:
   /mos-plugin-example/1.1.2:
     dependencies:
       babel-runtime: 6.26.0
-      codemo: 0.2.1
+      codemo: 0.2.2
       independent: 0.2.0
     dev: false
     engines:
