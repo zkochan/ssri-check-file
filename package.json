@@ -1,0 +1,53 @@
+{
+  "name": "ssri-check-file",
+  "version": "0.0.0",
+  "description": "Verifies files using subresource integrity hashes",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "standard && preview && node test && mos t"
+  },
+  "keywords": [
+    "ssri",
+    "integrity"
+  ],
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/",
+    "twitter": "ZoltanKochan"
+  },
+  "bugs": {
+    "url": "https://github.com/zkochan/ssri-check-file/issues"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkochan/ssri-check-file.git"
+  },
+  "dependencies": {
+    "graceful-fs": "^4.1.11",
+    "mos": "^2.0.0-alpha.3",
+    "mos-plugin-readme": "^1.0.4",
+    "mz": "^2.7.0",
+    "ssri": "^5.0.0"
+  },
+  "devDependencies": {
+    "package-preview": "^1.0.0",
+    "standard": "^10.0.3",
+    "tape": "^4.8.0"
+  },
+  "mos": {
+    "plugins": [
+      "readme"
+    ],
+    "installation": {
+      "useShortAlias": true
+    }
+  }
+}
