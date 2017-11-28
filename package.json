@@ -32,12 +32,12 @@
   },
   "dependencies": {
     "graceful-fs": "^4.1.11",
-    "mos": "^2.0.0-alpha.3",
-    "mos-plugin-readme": "^1.0.4",
     "mz": "^2.7.0",
     "ssri": "^5.0.0"
   },
   "devDependencies": {
+    "mos": "^2.0.0-alpha.3",
+    "mos-plugin-readme": "^1.0.4",
     "package-preview": "^1.0.0",
     "standard": "^10.0.3",
     "tape": "^4.8.0"
