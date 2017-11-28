@@ -1,6 +1,6 @@
 {
   "name": "ssri-check-file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Verifies files using subresource integrity hashes",
   "main": "index.js",
   "files": [
